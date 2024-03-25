@@ -3,7 +3,8 @@ Swift UI iOS17 SwiftData Danny version with comments<br>
 [Index](https://github.com/danielurra/Swift-UI-iOS17-Swift-Data-Danny-version#swiftui-ios17-swiftdata-danny-version)
  * [ContentView file](https://github.com/danielurra/Swift-UI-iOS17-Swift-Data-Danny-version/blob/main/README.md#grab-the-code---contentview-file)
  * [Data_PracticeApp file](https://github.com/danielurra/Swift-UI-iOS17-Swift-Data-Danny-version/blob/main/README.md#grab-the-code---data_practiceapp-file)
- * * [Item File](https://github.com/danielurra/Swift-UI-iOS17-Swift-Data-Danny-version/tree/main#grab-the-code---item-file)
+ * [Item File](https://github.com/danielurra/Swift-UI-iOS17-Swift-Data-Danny-version/tree/main#grab-the-code---item-file)
+<br>
 ![danny-vesion](https://github.com/danielurra/Swift-UI-iOS17-Swift-Data-Danny-version/assets/51704179/7eadf6ab-96b2-4274-8e14-6c1f0e6a0794)<br>
 ## Grab the code - ContentView file
 ```swift
