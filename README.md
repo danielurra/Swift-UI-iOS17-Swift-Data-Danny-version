@@ -70,8 +70,43 @@ struct ContentView: View {
 }
 
 ```
-## Grab the code - Practice file
+## Grab the code - Data_PracticeApp file
 ```swift
+//
+//  Data_PracticeApp.swift
+//  Data Practice
+//
+//  Created by Eusebio Taba on 3/24/24.
+//
+
+import SwiftUI
+import SwiftData
+
+@main
+struct Data_PracticeApp: App {
+    var sharedModelContainer: ModelContainer = {
+        let schema = Schema([
+            Item.self,//here you start adding new classes
+            Todo_Class.self,
+            
+        ])
+        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+
+        do {
+            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+        } catch {
+            fatalError("Could not create ModelContainer: \(error)")
+        }
+    }()
+
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+        .modelContainer(sharedModelContainer)
+    }
+}
+
 ```
 ## Grab the code - Item file
 ```swift
