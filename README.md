@@ -1,4 +1,4 @@
-# Swift-UI-iOS17-Swift-Data-Danny-version
+# SwiftUI iOS17 SwiftData Danny version
 Swift UI iOS17 SwiftData Danny version with comments
 ## Grab the code - ContentView file
 ```swift
